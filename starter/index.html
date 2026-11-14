@@ -1,117 +1,77 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Employee table</title>
+    <title>Styled Table</title>
 
     <style>
-        /* Complete the CSS according to the assignment requirements */
-
         body {
-            width: 750px;
-            margin: 0 auto;
+            font-family: Arial;
+            background-color: lightyellow;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
         }
 
         table {
-            /* Add table styling */
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
         }
 
-        caption {
-            /* Style the caption */
+        th {
+            background-color: blue;
+            color: white;
+            padding: 12px;
         }
 
-        thead, tfoot {
-            /* Header/footer background */
+        td {
+            border: 1px solid black;
+            padding: 10px;
         }
 
-        th, td {
-            /* Add borders, padding and alignment */
+        tr:hover {
+            background-color: lightblue;
         }
-
-        .right {
-            /* Right-align numeric cells */
-        }
-
-        .top {
-            /* Align department names to the top */
-        }
-
-        /* Add alternating row styling */
     </style>
 </head>
 
 <body>
 
-<table>
-    <!-- Add the caption -->
+    <h1>Student Details</h1>
 
-    <thead>
+    <table>
         <tr>
-            <!-- Add the four column headings -->
-        </tr>
-    </thead>
-
-    <tbody>
-
-        <!-- Editorial: 3 employees -->
-
-        <tr>
-            <!-- Department cell should use rowspan -->
-            <td>Joel Murach</td>
-            <td>joelmurach@yahoo.com</td>
-            <td>22</td>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Mark</th>
         </tr>
 
         <tr>
-            <td>Anne Boehm</td>
-            <td>anne@murach.com</td>
-            <td>34</td>
-        </tr>
-
-        <tr>
-            <td>Zak Ruvalcaba</td>
-            <td>zak@modulemedia.com</td>
-            <td>4</td>
-        </tr>
-
-        <!-- Marketing: 2 employees -->
-
-        <tr>
-            <!-- Add department cell -->
-            <td>Judy Taylor</td>
-            <td>judy@murach.com</td>
-            <td>39</td>
-        </tr>
-
-        <tr>
-            <td>Cyndi Vasquez</td>
-            <td>cyndi@murach.com</td>
-            <td>10</td>
-        </tr>
-
-        <!-- Customer Service: 2 employees -->
-
-        <tr>
-            <!-- Add department cell -->
-            <td>Kelly Slivkoff</td>
-            <td>kelly@murach.com</td>
-            <td>25</td>
-        </tr>
-
-        <tr>
-            <td>Juliette Baylon</td>
-            <td>juliette@murach.com</td>
             <td>1</td>
+            <td>Arun</td>
+            <td>BCA</td>
+            <td>85</td>
         </tr>
 
-    </tbody>
-
-    <tfoot>
         <tr>
-            <!-- Add total label and total -->
+            <td>2</td>
+            <td>Ravi</td>
+            <td>B.Sc</td>
+            <td>90</td>
         </tr>
-    </tfoot>
-</table>
+
+        <tr>
+            <td>3</td>
+            <td>Kumar</td>
+            <td>B.Com</td>
+            <td>88</td>
+        </tr>
+    </table>
 
 </body>
-</html
+</html>
